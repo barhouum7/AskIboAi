@@ -1,13 +1,13 @@
 {
-  "name": "server",
+  "name": "AskIboAi by GitHub@barhouum7",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "keywords": [],
-  "author": "",
+  "author": "GitHub@barhouum7",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
