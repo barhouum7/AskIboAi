@@ -1,5 +1,5 @@
 import bot from './assets/bot.png'
-import users from './assets/user.png'
+import user from './assets/user.png'
 
 
 const form =  document.querySelector('form');
@@ -25,7 +25,7 @@ function typeText (element, text) {
 
   let interval = setInterval(() => {
     if (index < text.length) {
-      element.interval += text.charAt(index);
+      element.innerHTML += text.charAt(index);
       index++;
     } else {
       clearInterval(interval);
@@ -48,7 +48,7 @@ function chatStripe (isAi, value, uniqueId) {
       <div class="chat">
         <div class="profile">
           <img 
-            src="${isAi ? bot : users}"
+            src="${isAi ? bot : user}"
             alt="${isAi ? 'bot' : 'user'}"
           />
         </div>
@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
 
 form.addEventListener('submit', handleSubmit);
 form.addEventListener('keyup', (e) => {
-  if (e.keyup === 13) {
+  if (e.keyCode === 13) {
     handleSubmit(e);
   }
 });
