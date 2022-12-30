@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // Fetch the data from server -> Bot's Response...
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://askiboai.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -108,7 +108,7 @@ const handleSubmit = async (e) => {
 
     alert(err);
   }
-  
+
 }
 
 form.addEventListener('submit', handleSubmit);
