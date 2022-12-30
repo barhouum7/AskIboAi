@@ -1,5 +1,5 @@
 {
-  "name": "AskIboAi by barhouum7",
+  "name": "AskIboAi by Ibrahim BHMBS",
   "version": "1.0.0",
   "description": "AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model",
   "type": "module",
@@ -7,7 +7,7 @@
     "server": "nodemon server"
   },
   "keywords": [],
-  "author": "GitHub barhouum7",
+  "author": "Ibrahim BHMBS",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
