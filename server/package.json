@@ -1,5 +1,5 @@
 {
-  "name": "AskIboAi by Ibrahim BHMBS",
+  "name": "AskIboAi",
   "version": "1.0.0",
   "description": "AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model",
   "type": "module",
