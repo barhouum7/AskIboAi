@@ -3,10 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AskIboAi — Your Best Coding AI Friend</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <title>AskIboAi — Your Best Coding AI Friend</title>
+  <meta name="description" content="AskIboAi — Your Best Coding AI Friend" />
 </head>
 
 <body>
@@ -14,12 +18,40 @@
     <div id="chat_container">
     </div>
 
-    <form>
-      <textarea name="prompt" placeholder="Ask anything to Ibo Ai..." cols="1" rows="1"></textarea>
-      <button type="submit">
-        <img src="assets/send.gif" alt="Send Button">
-      </button>
-    </form>
+    <div id="input-area">
+      <form>
+        <textarea name="prompt" placeholder="Ask anything to Ibo Ai..." cols="1" rows="1"></textarea>
+        <button type="submit">
+          <img src="assets/send.gif" alt="Send Button">
+        </button>
+    </div>
+    <p class="disclaimer">
+      This app was created using OpenAI's GPT-3 API and is not an official product of OpenAI.<br>
+      <span> Made With
+        <span class="loader">
+          <span></span>
+        </span>
+        <span class="creator-copyright"> By <a href="http://link.programmerslife.site/" target="_blank"
+            rel="noopener noreferrer">Ibrahim
+            BHMBS. </a>
+          &nbsp;AskIboAi App <b>v.1.0.1.</b> If you like it, please consider <a
+            href="https://www.buymeacoffee.com/ProgrammersLife" target="_blank" rel="noopener noreferrer">supporting
+            me.</a>
+        </span>
+      </span>
+      <br>
+      ⚠️ By using this app, you acknowledge that you use it at your own risk and that the
+
+      <a href="http://link.programmerslife.site/" target="_blank">
+        creator
+      </a>
+      &nbsp;and
+      <a href="https://openai.com/" target="_blank">
+        OpenAI
+      </a>
+      &nbsp;will not be held responsible for any harm or damages resulting from your use of the app.
+    </p>
+  </div>
   </div>
 
   <script type="module" src="script.js"></script>
