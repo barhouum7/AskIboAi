@@ -15,9 +15,9 @@ body {
 #app {
   max-width: 100vw;
   width: 70vw;
-  height: 98vh;
+  height: 99vh;
   background-image: url("./assets/AskIboAi-Bg-Image.png");
-  background-size: 500px;
+  background-size: 300px;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -27,6 +27,38 @@ body {
   justify-content: space-between;
   justify-items: center;
   margin: auto;
+}
+
+
+.header {
+  padding: 1px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #383946;
+  color: #ececf1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.header h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+
+.header p {
+  font-size: 0.75em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: -0.5em 0 0 0;
+  padding: 5px;
+  text-align: center;
 }
 
 
