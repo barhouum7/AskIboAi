@@ -1,5 +1,5 @@
-import bot from './assets/bot.png'
-import user from './assets/user.png'
+import bot from './assets/bot2.png'
+import user from './assets/user0.png'
 
 
 const form =  document.querySelector('form');
@@ -81,6 +81,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // Fetch the data from server -> Bot's Response...
+  // const response = await fetch('http://localhost:3000/', {
   const response = await fetch('https://askiboai.onrender.com/', {
     method: 'POST',
     headers: {
