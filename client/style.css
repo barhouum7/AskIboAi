@@ -13,8 +13,9 @@ body {
 
 
 #app {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  width: 70vw;
+  height: 98vh;
   background-image: url("./assets/AskIboAi-Bg-Image.png");
   background-size: 500px;
   background-repeat: no-repeat;
@@ -24,6 +25,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  justify-items: center;
+  margin: auto;
 }
 
 
@@ -117,6 +120,16 @@ body {
   display: none;
 }
 
+#input-area {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #343541;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 form {
   width: 100%;
   max-width: 1280px;
@@ -127,17 +140,18 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+
+  border-radius: 5px;
 }
 
-textarea {
-  width: 100%;
+#input-area textarea {
+  width: calc(100% - 2em);
 
-  color: #fff;
+  color: #ececf1;
   font-size: 18px;
 
   padding: 10px;
   background: transparent;
-  border-radius: 5px;
   border: none;
   outline: none;
 }
@@ -153,3 +167,96 @@ form img {
   width: 40px;
   height: 40px;
 }
+
+#input-area input {
+  width: calc(100% - 2em);
+  background-color: #40414F;
+  border: none;
+  color: #ececf1;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.disclaimer {
+  font-size: 0.7em;
+  text-align: center;
+  color: #757575;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 0.5em;
+  margin: 0.3em;
+}
+
+.disclaimer a {
+  color: #818f7b;
+  font-style: italic;
+}
+
+
+.creator-copyright {
+  margin-left: 12px;
+}
+
+/* From uiverse.io by @pedertanberg */
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  transform-origin: 12px 5px 0;
+  }
+  
+  .loader span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: red;
+  animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  
+  .loader span:after,
+  .loader span:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: red;
+  }
+  
+  .loader span:before {
+  left: -5px;
+  border-radius: 50% 0 0 50%;
+  }
+  
+  .loader span:after {
+  top: -5px;
+  border-radius: 50% 50% 0 0;
+  }
+  
+  @keyframes loader45 {
+  0% {
+      transform: scale(0.95);
+  }
+  
+  5% {
+      transform: scale(1.1);
+  }
+  
+  39% {
+      transform: scale(0.85);
+  }
+  
+  45% {
+      transform: scale(1);
+  }
+  
+  60% {
+      transform: scale(0.95);
+  }
+  
+  100% {
+      transform: scale(0.9);
+  }
+  }
