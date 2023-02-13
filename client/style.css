@@ -235,7 +235,9 @@ form img {
   position: relative;
   width: 5px;
   height: 5px;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  -webkit-transform-origin: 12px 5px 0;
   transform-origin: 12px 5px 0;
   }
   
@@ -245,6 +247,7 @@ form img {
   height: 10px;
   background: red;
   -webkit-animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   
   .loader span:after,
