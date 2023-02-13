@@ -245,7 +245,7 @@ form img {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: red;
+  background: rgb(20, 245, 0);
   -webkit-animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
   animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
   }
@@ -257,7 +257,7 @@ form img {
   display: block;
   width: 10px;
   height: 10px;
-  background: red;
+  background: rgb(20, 245, 0)
   }
   
   .loader span:before {
