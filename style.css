@@ -421,3 +421,18 @@ form img {
       /* added vendor specific css (Safari, Opera , Chrome) */
   }
 }
+
+
+.sections {  
+  display: inline;
+  margin: 0;
+}
+
+.sidebar {
+  /* background-color: #F1C40F; */
+  width: 20vw;
+  height: 50vh;
+  float: left;
+  margin: 10px -100px 0 5px;
+
+}
