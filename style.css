@@ -424,26 +424,34 @@ form img {
 
 
 .sections {
-  display: inline;
-  margin: 0;
-}
-
-.sidebar {
   width: 5vw;
   /* height: 50vh; */
+  
+  margin: 5px 0px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   float: left;
-  margin: 20px 0px 0 10px;
 }
 
-.sidebar img { 
+.sidebar-ad-1 img { 
   width: 90px; 
-  height: 550px; 
+  height: 350px; 
   display: block;
   z-index: 1000;
+  margin: 10px 0px 0 40px;
+
+ }
+ .sidebar-ad-2 img { 
+  width: 190px;
+  height: 220px; 
+  display: block;
+  z-index: 1000;
+  margin: 10px 0px 0 0px;
  }
 
 @media only screen and (max-width: 600px) { 
-  .sidebar img { 
+  .sidebar-ad-1 img { 
     width: 50px; 
     height: 245px; 
     display: block; 
