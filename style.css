@@ -455,5 +455,11 @@ form img {
     width: 50px; 
     height: 245px; 
     display: block; 
-   } 
+    margin: 10px 0px 0 0px;
+   }
+   .sidebar-ad-2 img { 
+    width: 50px; 
+    height: 55px; 
+    display: block; 
+   }
 }
