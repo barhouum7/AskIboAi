@@ -432,12 +432,12 @@ form img {
   width: 5vw;
   /* height: 50vh; */
   float: left;
-  /* margin: 10px -100px 0 5px; */
+  margin: 20px 0px 0 10px;
 }
 
 .sidebar img { 
-  width: 120px; 
-  height: 600px; 
+  width: 90px; 
+  height: 550px; 
   display: block;
   z-index: 1000;
  }
