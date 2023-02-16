@@ -423,16 +423,29 @@ form img {
 }
 
 
-.sections {  
+.sections {
   display: inline;
   margin: 0;
 }
 
 .sidebar {
-  /* background-color: #F1C40F; */
-  width: 20vw;
-  height: 50vh;
+  width: 5vw;
+  /* height: 50vh; */
   float: left;
-  margin: 10px -100px 0 5px;
+  /* margin: 10px -100px 0 5px; */
+}
 
+.sidebar img { 
+  width: 120px; 
+  height: 600px; 
+  display: block;
+  z-index: 1000;
+ }
+
+@media only screen and (max-width: 600px) { 
+  .sidebar img { 
+    width: 50px; 
+    height: 245px; 
+    display: block; 
+   } 
 }
