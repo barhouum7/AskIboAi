@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background: #00091B;
+            color: #fff;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                top: 20%;
+                opacity: 0;
+            }
+
+            to {
+                top: 100;
+                opacity: 1;
+            }
+
+        }
+
+        @-webkit-keyframes fadeIn {
+            from {
+                top: 20%;
+                opacity: 0;
+            }
+
+            to {
+                top: 100;
+                opacity: 1;
+            }
+
+        }
+
+        .wrapper {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            animation: fadeIn 1000ms ease;
+            -webkit-animation: fadeIn 1000ms ease;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 0;
+            line-height: 1;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        h1 {
+            -webkit-animation: MISSION-HOVER 1.5s infinite;
+            -moz-animation: MISSION-HOVER 1.5s infinite;
+            -o-animation: MISSION-HOVER 1.5s infinite;
+            animation: MISSION-HOVER 1.5s infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+        }
+
+        @-webkit-keyframes MISSION-HOVER {
+
+            0%,
+            100% {
+                font-size: 4rem;
+                color: white;
+            }
+
+            50% {
+                color: #bffcff;
+                letter-spacing: 5px;
+                text-shadow: 0px 0px 30px rgba(191, 252, 255, 1);
+            }
+        }
+
+        .dot {
+            color: #4FEBFE;
+        }
+
+        p {
+            text-align: center;
+            margin: 18px;
+            font-family: 'Muli', sans-serif;
+            font-weight: normal;
+
+        }
+
+        .icons {
+            text-align: center;
+
+        }
+
+        .icons i {
+            color: #00091B;
+            background: #fff;
+            height: 15px;
+            width: 15px;
+            padding: 13px;
+            margin: 0 10px;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            transition: all 200ms ease;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .icons i:hover,
+        .icons i:active {
+            color: #fff;
+            background: none;
+            cursor: pointer !important;
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            text-decoration: none;
+
+        }
+
+        section {
+            color: #fff;
+            margin: 0 auto;
+            line-height: 24px;
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 2rem;
+            width: 6rem;
+        }
+
+        .timenumbers {
+            display: block;
+            font-size: 4rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p.timedescription {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1rem;
+            font-variant: small-caps;
+            line-height: 1.5rem;
+            margin: 20px auto 0 auto;
+            text-align: center;
+            position: relative;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Coming soon<span class="dot">.</span></h1>
+        <p>WE'RE IMPROVING YOUR EXPERIENCE!</p>
+        <section>
+            <ul id="countdown">
+                <li><span id="days" class="days timenumbers">01</span>
+                    <p class="timeRefDays timedescription">days</p>
+                </li>
+                <li><span id="hours" class="hours timenumbers">00</span>
+                    <p class="timeRefHours timedescription">hours</p>
+                </li>
+                <li><span id="mins" class="minutes timenumbers">00</span>
+                    <p class="timeRefMinutes timedescription">minutes</p>
+                </li>
+                <li><span id="secs" class="seconds timenumbers yellow-text">00</span>
+                    <p class="timeRefSeconds timedescription">seconds</p>
+                </li>
+            </ul>
+        </section>
+        <p>Please check out our social channels for further update and stay tuned.</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/ibrahimbs/"><i class="fa fa-linkedin-square"></i></a>
+            <a href="https://www.facebook.com/MindH4Q3Rr"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/mindh4q3rr/"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/mindh4q3rr/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@programmerslife01"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://web.telegram.org/k/#@ProgrammersLife01"><i class="fa fa-paper-plane"></i></a>
+        </div>
+    </div>
+    <script>
+        var count = new Date("mar 15,2023 00:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var d = count - now;
+            var days = Math.floor(d / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((d % (1000 * 60)) / 1000);
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("mins").innerHTML = minutes;
+            document.getElementById("secs").innerHTML = seconds;
+        }, 1000);
+    </script>
+</body>
+
+</html>
