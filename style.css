@@ -450,7 +450,11 @@ form img {
   margin: 10px 0px 0 0px;
  }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
+  .header p {
+    font-size: 0.55em;
+  }
+
   .sections {    
     margin: 0px 0px 0 5px;
   }
