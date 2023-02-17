@@ -455,6 +455,10 @@ form img {
     font-size: 0.55em;
   }
 
+  .message {
+    font-size: 15px;  
+  }
+
   .sections {    
     margin: 0px 0px 0 5px;
   }
