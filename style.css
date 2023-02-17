@@ -459,7 +459,7 @@ form img {
     width: 50px; 
     height: 245px; 
     display: block; 
-    margin: 10px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
    }
    .sidebar-ad-2 img { 
     width: 50px; 
@@ -662,4 +662,13 @@ form img {
   80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
   81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
   100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+@media only screen and (max-width: 600px) { 
+   .custom-btn {
+    width: 40px;
+    height: 20px;
+    margin: auto;
+    font-size: 6px;
+  }
 }
