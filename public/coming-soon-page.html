@@ -95,14 +95,13 @@
         p {
             text-align: center;
             margin: 18px;
-            font-family: 'Muli', sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: normal;
 
         }
 
         .icons {
             text-align: center;
-
         }
 
         .icons i {
@@ -165,10 +164,60 @@
             font-size: 1rem;
             font-variant: small-caps;
             line-height: 1.5rem;
-            margin: 20px auto 0 auto;
+            margin: 20px auto 20px auto;
             text-align: center;
             position: relative;
             top: 0px;
+        }
+
+        p.p2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                zoom: 80%;
+            }
+
+            .icons {
+                text-align: center;
+            }
+
+            .icons i {
+                height: 15px;
+                width: 15px;
+                margin: 10px 10px;
+            }
+
+            section {
+                margin: 0 1rem;
+            }
+
+            ul {
+                margin-bottom: .5px;
+                margin-left: 4rem;
+            }
+
+            li {
+                margin-right: 2rem;
+                width: 6rem;
+            }
+
+            .timenumbers {
+                font-size: 3rem;
+                line-height: 2.5rem;
+                margin: -10px auto;
+            }
+
+            p.timedescription {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 1rem;
+                margin: 10px auto 30px auto;
+            }
+
         }
     </style>
 </head>
@@ -193,7 +242,7 @@
                 </li>
             </ul>
         </section>
-        <p>Please check out our social channels for further update and stay tuned.</p>
+        <p class="p2">Please check out our social channels for further update and stay tuned.</p>
         <div class="icons">
             <a href="https://www.linkedin.com/in/ibrahimbs/"><i class="fa fa-linkedin-square"></i></a>
             <a href="https://www.facebook.com/MindH4Q3Rr"><i class="fa fa-facebook-square"></i></a>
