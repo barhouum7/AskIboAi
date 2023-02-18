@@ -530,6 +530,7 @@ form img {
 }
 .shake {
   animation-name: shake;
+  animation-duration: 20s;
 }
 
 @keyframes swing {
@@ -555,6 +556,7 @@ form img {
 }
 .wobble {
   animation-name: wobble;
+  animation-duration: 10s;
 }
 
 @keyframes flip {
