@@ -2,8 +2,8 @@
 <p><a href="https://github.com/barhouum7/AskIboAi"><img src="https://img.shields.io/badge/AskIboAi-1.0.1-brightgreen.svg" alt="Version" data-canonical-src="https://img.shields.io/badge/AskIboAi-1.0.1-brightgreen.svg?maxAge=259200" style="max-width:100%;"></a>
 <a href="https://github.com/barhouum7/AskIboAi"><img src="https://img.shields.io/badge/Release-Stable-brightgreen.svg" alt="Stage" data-canonical-src="https://img.shields.io/badge/Release-Stable-brightgreen.svg" style="max-width:100%;"></a>
 <a href="https://github.com/barhouum7/AskIboAi"><img src="https://img.shields.io/badge/Supported%20Browsers-Chrome%2FBrave%2FEdge%2FSafari%2FFirefox%2FOpera-brightgreengreen.svg" alt="Build" data-canonical-src="https://img.shields.io/badge/Supported%20Browsers-Chrome%2FBrave%2FEdge%2FSafari%2FFirefox%2FOpera-brightgreengreen.svg" style="max-width:100%;"></a>
-<a href="https://github.com/barhouum7/AskIboAi/blame/master/LICENSE"><img src="https://img.shields.io/github/license/barhouum7/AskIboAi" alt="Build" data-canonical-src="https://img.shields.io/github/license/barhouum7/AskIboAi" style="max-width:100%;"></a></p>
-
+<a href="https://github.com/barhouum7/AskIboAi/blame/master/LICENSE"><img src="https://img.shields.io/github/license/barhouum7/AskIboAi?style=flat-square" alt="Build" data-canonical-src="https://img.shields.io/github/license/barhouum7/AskIboAi" style="max-width:100%;"></a>
+<a href="#"><img src="https://img.shields.io/github/stars/barhouum7/AskIboAi?style=social" alt="Build" data-canonical-src="https://img.shields.io/github/stars/barhouum7/AskIboAi?style=social" style="max-width:100%;"></a></p>
 
 AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model.
 
@@ -39,10 +39,13 @@ AskIboAi App v.1.0.1. If you like it, please consider supporting me.
 <h3>💼 Business Inquiries:</h3>
 <h4>If you would like to get in touch with me, Feel free to send me an email: </h4>📧 E-mail: <a href="mailto:contact@programmerslife.site?Subject=Hello%20again" target="_top">Send E-Mail</a>
 
+<br>🌎 or you could... Find Me Here:
+<br>◼ <i>LinkedIn</i><br><a target='_blank' href="https://linktr.ee/programmerslife"><img src="https://img.shields.io/modrinth/followers/AANobbMI?style=social" alt="Build" data-canonical-src="https://img.shields.io/modrinth/followers/AANobbMI?style=social" style="max-width:100%;"></a>
 
-<br>or you could... Find Me Here:
-<br>🌎<a target='_blank' href="https://www.linkedin.com/in/ibrahimbs/">LinkedIn</a>
-<br>🌎<a target='_blank' href="https://twitter.com/MindH4Q3Rr">Twitter🐦</a>
+<br>◼ <i>Twitter</i><br><a target='_blank' href="https://twitter.com/intent/follow?screen_name=MindH4Q3Rr"><img src="https://img.shields.io/twitter/follow/mindh4q3rr" alt="Build" data-canonical-src="https://img.shields.io/twitter/follow/mindh4q3rr" style="max-width:100%;"></a>
+
+<br>◼ <i>YouTube</i><br><a target='_blank' href="https://www.youtube.com/@programmerslife01?sub_confirmation=1"><img src="https://img.shields.io/youtube/channel/views/UCBuiwdT12ytcmE_NMEPR-Sw" alt="Build" data-canonical-src="https://img.shields.io/youtube/channel/views/UCBuiwdT12ytcmE_NMEPR-Sw" style="max-width:100%;"></a>
+<br><a target='_blank' href="https://www.youtube.com/@programmerslife01?sub_confirmation=1"><img src="https://img.shields.io/youtube/channel/subscribers/UCBuiwdT12ytcmE_NMEPR-Sw?style=social" alt="Build" data-canonical-src="https://img.shields.io/youtube/channel/subscribers/UCBuiwdT12ytcmE_NMEPR-Sw?style=social" style="max-width:100%;"></a>
 
 <h3>❤️ Support My Work:</h3>
 <a target='_blank' href='https://www.buymeacoffee.com/ProgrammersLife'>https://www.buymeacoffee.com/ProgrammersLife☕</a>
