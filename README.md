@@ -5,7 +5,7 @@
 <a href="https://github.com/barhouum7/AskIboAi/blame/master/LICENSE"><img src="https://img.shields.io/github/license/barhouum7/AskIboAi?style=flat-square" alt="Build" data-canonical-src="https://img.shields.io/github/license/barhouum7/AskIboAi" style="max-width:100%;"></a>
 <a href="#"><img src="https://img.shields.io/github/stars/barhouum7?style=social" alt="Build" data-canonical-src="https://img.shields.io/github/stars/barhouum7?style=social" style="max-width:100%;"></a></p>
 
-AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model.
+AskIboAi is a ChatGPT AI App using Vanilla JavaScript built with OpenAI Davinci Codex Model.
 
 This app was created using OpenAI's GPT-3 API and is not an official product of OpenAI.
 Made With love By Ibrahim BHMBS.
