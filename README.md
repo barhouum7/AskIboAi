@@ -3,7 +3,7 @@
 <a href="https://github.com/barhouum7/AskIboAi"><img src="https://img.shields.io/badge/Release-Stable-brightgreen.svg" alt="Stage" data-canonical-src="https://img.shields.io/badge/Release-Stable-brightgreen.svg" style="max-width:100%;"></a>
 <a href="https://github.com/barhouum7/AskIboAi"><img src="https://img.shields.io/badge/Supported%20Browsers-Chrome%2FBrave%2FEdge%2FSafari%2FFirefox%2FOpera-brightgreengreen.svg" alt="Build" data-canonical-src="https://img.shields.io/badge/Supported%20Browsers-Chrome%2FBrave%2FEdge%2FSafari%2FFirefox%2FOpera-brightgreengreen.svg" style="max-width:100%;"></a>
 <a href="https://github.com/barhouum7/AskIboAi/blame/master/LICENSE"><img src="https://img.shields.io/github/license/barhouum7/AskIboAi?style=flat-square" alt="Build" data-canonical-src="https://img.shields.io/github/license/barhouum7/AskIboAi" style="max-width:100%;"></a>
-<a href="#"><img src="https://img.shields.io/github/stars/barhouum7/AskIboAi?style=social" alt="Build" data-canonical-src="https://img.shields.io/github/stars/barhouum7/AskIboAi?style=social" style="max-width:100%;"></a></p>
+<a href="#"><img src="https://img.shields.io/github/stars/barhouum7?style=social" alt="Build" data-canonical-src="https://img.shields.io/github/stars/barhouum7?style=social" style="max-width:100%;"></a></p>
 
 AskIboAi is a ChatGPT AI App using JavaScript built with OpenAI Davinci Codex Model.
 
