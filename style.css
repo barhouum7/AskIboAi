@@ -423,32 +423,60 @@ form img {
 }
 
 
-.sections {
-  width: 5vw;
+.ad-section-left {
+  width: 12vw;
   /* height: 50vh; */
   
-  margin: 5px 0px 0 10px;
+  margin: 10px 0px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   float: left;
 }
 
-.sidebar-ad-1 img { 
-  width: 90px; 
-  height: 310px; 
+.section-left-ad-1 img { 
+  width: 260px; 
+  height: 350px;
   display: block;
   z-index: 1000;
-  margin: 10px 0px 0px 40px;
+  margin: 10px 0px -192px -20px;
+}
 
- }
- .sidebar-ad-2 img { 
+ .section-left-ad-2 img { 
   width: 190px;
   height: 200px; 
   display: block;
   z-index: 1000;
   margin: 10px 0px 0 0px;
  }
+
+
+ .ad-section-right {
+  width: auto;
+  height: auto;
+  
+  margin: 10px 40px 0 -50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: right;
+}
+
+.section-right-ad-1 img { 
+  width: 85px;
+  height: 270px;
+  display: block;
+  z-index: 1000;
+  margin: auto;
+}
+
+.section-right-ad-2 img { 
+  width: 148px;
+  height: 160px;
+  display: block;
+  z-index: 1000;
+  margin: 25px -20px 0px 0px;
+}
 
 @media only screen and (max-width: 600px) {
   .header p {
@@ -459,21 +487,38 @@ form img {
     font-size: 15px;  
   }
 
-  .sections {    
+  .ad-section-left {    
     margin: 0px 0px 0 5px;
   }
 
-  .sidebar-ad-1 img { 
+  .section-left-ad-1 img { 
+    width: 82px; 
+    height: 95px; 
+    display: block; 
+    margin: 40px 0px -66px -10px;
+    }
+    .section-left-ad-2 img { 
     width: 50px; 
-    height: 245px; 
+    height: 65px; 
+    display: block; 
+    }
+  
+  .ad-section-right {    
+    margin: 150px 10px 0 -10px;
+  }
+
+  .section-right-ad-1 img { 
+    width: 50px; 
+    height: 200px; 
     display: block; 
     margin: 20px 0px 10px 0px;
-   }
-   .sidebar-ad-2 img { 
+    }
+    .section-right-ad-2 img { 
     width: 50px; 
     height: 55px; 
     display: block; 
-   }
+    }
+
 }
 
 /* Different Animations */
