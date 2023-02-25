@@ -41,7 +41,7 @@ AskIboAi App v.1.0.1. If you like it, please consider supporting me.
 <ul><li>Feel free and submit <a target='_blank' href="https://github.com/barhouum7/AskIboAi/issues">new issue</a> ✅</li></ul>
 
 <h3>💼 Business Inquiries:</h3>
-<h4>If you would like to get in touch with me, Feel free to send me an email: </h4>📧 E-mail: <a href="mailto:contact@programmerslife.site?Subject=Hello%20again" target="_top">Send <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"></a>
+<h4>If you would like to get in touch with me, Feel free to send me an email: </h4><a href="mailto:contact@programmerslife.site?Subject=Hello%20again" target="_top"><img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"> ✈</a>
 
 <br>🌎 or you could... Find Me Here:
 <br>◼ <i>LinkedIn</i><br><a target='_blank' href="https://linktr.ee/programmerslife"><img src="https://img.shields.io/modrinth/followers/AANobbMI?style=social" alt="Build" data-canonical-src="https://img.shields.io/modrinth/followers/AANobbMI?style=social" style="max-width:100%;"></a>
