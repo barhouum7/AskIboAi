@@ -228,7 +228,7 @@
         <p>WE'RE IMPROVING YOUR EXPERIENCE!</p>
         <section>
             <ul id="countdown">
-                <li><span id="days" class="days timenumbers">01</span>
+                <li><span id="days" class="days timenumbers">00</span>
                     <p class="timeRefDays timedescription">days</p>
                 </li>
                 <li><span id="hours" class="hours timenumbers">00</span>
@@ -253,18 +253,21 @@
         </div>
     </div>
     <script>
-        var count = new Date("mar 15,2023 00:00:00").getTime();
+        var count = new Date("apr 30,2023 00:00:00").getTime();
         var x = setInterval(function () {
             var now = new Date().getTime();
             var d = count - now;
-            var days = Math.floor(d / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((d % (1000 * 60)) / 1000);
+            var days = Math.max(Math.floor(d / (1000 * 60 * 60 * 24)), 0);
+            var hours = Math.max(Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)), 0);
+            var minutes = Math.max(Math.floor((d % (1000 * 60 * 60)) / (1000 * 60)), 0);
+            var seconds = Math.max(Math.floor((d % (1000 * 60)) / 1000), 0);
             document.getElementById("days").innerHTML = days;
             document.getElementById("hours").innerHTML = hours;
             document.getElementById("mins").innerHTML = minutes;
             document.getElementById("secs").innerHTML = seconds;
+            if (d <= 0) {
+                clearInterval(x);
+            }
         }, 1000);
     </script>
 </body>
