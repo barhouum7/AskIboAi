@@ -424,7 +424,8 @@ form img {
 
 
 .ad-section-left {
-  width: 12vw;
+  /* width: 12vw; */
+  width: 1vw;
   /* height: 50vh; */
   
   margin: 10px 0px 0px 10px;
